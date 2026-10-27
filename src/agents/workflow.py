@@ -9,6 +9,11 @@ import os
 # Import simulator for tool execution
 from src.simulator.factory import FactorySimulator
 
+from langchain_groq import ChatGroq
+from getpass import getpass
+
+os.environ["GROQ_API_KEY"] = getpass("Enter your Groq API key: ")
+
 class AgentState(TypedDict):
     request: str
     messages: list
@@ -22,21 +27,15 @@ _llm_instance = None
 
 def get_llm(model_size: str = "small"):
     global _llm_instance
+
     if _llm_instance is None:
-        from llama_cpp import Llama
-        model_path = "models/qwen2.5-0.5b-instruct-q4_k_m.gguf"
-        
-        if not os.path.exists(model_path):
-            raise FileNotFoundError(f"Model not found at {model_path}. Run the wget command to download it.")
-            
-        print(f"Loading model from {model_path}... (this may take a moment)")
-        _llm_instance = Llama(
-            model_path=model_path,
-            n_ctx=4096,
-            n_gpu_layers=0,  # 0 for CPU. Change to -1 if you have a dedicated NVIDIA GPU.
-            n_threads=4,     # Adjust based on your CPU cores
-            verbose=False
+        _llm_instance = ChatGroq(
+            model="llama-3.1-8b-instant",
+            temperature=0.1,
+            max_tokens=512,
+            max_retries=2,
         )
+
     return _llm_instance
 
 def call_llm(state: AgentState, model_size: str = "small") -> dict:
