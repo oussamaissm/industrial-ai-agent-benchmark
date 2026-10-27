@@ -24,7 +24,7 @@ def get_llm(model_size: str = "small"):
     global _llm_instance
     if _llm_instance is None:
         from llama_cpp import Llama
-        model_path = "models/qwen2.5-1.5b-instruct-q4_k_m.gguf"
+        model_path = "models/qwen2.5-0.5b-instruct-q4_k_m.gguf"
         
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"Model not found at {model_path}. Run the wget command to download it.")
