@@ -1,0 +1,5 @@
+benchmark:
+  num_tasks: 250
+  modes: ["baseline", "tool", "verified", "hybrid"]
+  max_retries: 2
+  random_seed: 42

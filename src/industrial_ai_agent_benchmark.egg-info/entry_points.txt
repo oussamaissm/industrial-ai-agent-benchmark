@@ -1,0 +1,4 @@
+[console_scripts]
+generate-data = data.generate_factory_data:main
+mcp-server = src.tools.factory_mcp_server:main
+run-benchmark = src.evaluation.runner:main

@@ -1,0 +1,1 @@
+{"id": "T001", "type": "lookup", "complexity": "low", "request": "Which machine is responsible for the largest number of downtime minutes?", "expected_tools": ["get_machine_status"], "ground_truth": {"machine_id": "M003", "downtime": 450}}

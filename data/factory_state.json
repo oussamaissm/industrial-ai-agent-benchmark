@@ -1,0 +1,416 @@
+{
+  "machines": [
+    {
+      "id": "M001",
+      "capacity_hours": 9,
+      "status": "operational",
+      "downtime_minutes": 379
+    },
+    {
+      "id": "M002",
+      "capacity_hours": 12,
+      "status": "operational",
+      "downtime_minutes": 114
+    },
+    {
+      "id": "M003",
+      "capacity_hours": 10,
+      "status": "down",
+      "downtime_minutes": 52
+    },
+    {
+      "id": "M004",
+      "capacity_hours": 16,
+      "status": "operational",
+      "downtime_minutes": 302
+    },
+    {
+      "id": "M005",
+      "capacity_hours": 14,
+      "status": "operational",
+      "downtime_minutes": 15
+    },
+    {
+      "id": "M006",
+      "capacity_hours": 9,
+      "status": "operational",
+      "downtime_minutes": 119
+    },
+    {
+      "id": "M007",
+      "capacity_hours": 16,
+      "status": "down",
+      "downtime_minutes": 13
+    },
+    {
+      "id": "M008",
+      "capacity_hours": 16,
+      "status": "operational",
+      "downtime_minutes": 366
+    },
+    {
+      "id": "M009",
+      "capacity_hours": 16,
+      "status": "maintenance",
+      "downtime_minutes": 112
+    },
+    {
+      "id": "M010",
+      "capacity_hours": 15,
+      "status": "down",
+      "downtime_minutes": 142
+    }
+  ],
+  "orders": [
+    {
+      "id": "O0001",
+      "product": "Prod_A",
+      "quantity": 438,
+      "priority": 1,
+      "deadline": "2026-11-03T15:17:01.886898"
+    },
+    {
+      "id": "O0002",
+      "product": "Prod_B",
+      "quantity": 192,
+      "priority": 1,
+      "deadline": "2026-10-31T15:17:01.886915"
+    },
+    {
+      "id": "O0003",
+      "product": "Prod_B",
+      "quantity": 102,
+      "priority": 1,
+      "deadline": "2026-11-03T15:17:01.886923"
+    },
+    {
+      "id": "O0004",
+      "product": "Prod_A",
+      "quantity": 233,
+      "priority": 2,
+      "deadline": "2026-11-06T15:17:01.886928"
+    },
+    {
+      "id": "O0005",
+      "product": "Prod_B",
+      "quantity": 463,
+      "priority": 1,
+      "deadline": "2026-11-04T15:17:01.886933"
+    },
+    {
+      "id": "O0006",
+      "product": "Prod_C",
+      "quantity": 113,
+      "priority": 2,
+      "deadline": "2026-10-29T15:17:01.886939"
+    },
+    {
+      "id": "O0007",
+      "product": "Prod_C",
+      "quantity": 200,
+      "priority": 3,
+      "deadline": "2026-11-06T15:17:01.886943"
+    },
+    {
+      "id": "O0008",
+      "product": "Prod_B",
+      "quantity": 345,
+      "priority": 1,
+      "deadline": "2026-10-29T15:17:01.886948"
+    },
+    {
+      "id": "O0009",
+      "product": "Prod_A",
+      "quantity": 388,
+      "priority": 1,
+      "deadline": "2026-11-01T15:17:01.886956"
+    },
+    {
+      "id": "O0010",
+      "product": "Prod_A",
+      "quantity": 487,
+      "priority": 1,
+      "deadline": "2026-10-29T15:17:01.886961"
+    },
+    {
+      "id": "O0011",
+      "product": "Prod_B",
+      "quantity": 192,
+      "priority": 2,
+      "deadline": "2026-11-02T15:17:01.886965"
+    },
+    {
+      "id": "O0012",
+      "product": "Prod_A",
+      "quantity": 239,
+      "priority": 2,
+      "deadline": "2026-10-31T15:17:01.886970"
+    },
+    {
+      "id": "O0013",
+      "product": "Prod_C",
+      "quantity": 186,
+      "priority": 3,
+      "deadline": "2026-10-29T15:17:01.886975"
+    },
+    {
+      "id": "O0014",
+      "product": "Prod_C",
+      "quantity": 375,
+      "priority": 1,
+      "deadline": "2026-11-05T15:17:01.886979"
+    },
+    {
+      "id": "O0015",
+      "product": "Prod_C",
+      "quantity": 175,
+      "priority": 1,
+      "deadline": "2026-11-04T15:17:01.886984"
+    },
+    {
+      "id": "O0016",
+      "product": "Prod_B",
+      "quantity": 188,
+      "priority": 3,
+      "deadline": "2026-11-05T15:17:01.886988"
+    },
+    {
+      "id": "O0017",
+      "product": "Prod_A",
+      "quantity": 400,
+      "priority": 2,
+      "deadline": "2026-10-28T15:17:01.886993"
+    },
+    {
+      "id": "O0018",
+      "product": "Prod_A",
+      "quantity": 470,
+      "priority": 1,
+      "deadline": "2026-11-02T15:17:01.887000"
+    },
+    {
+      "id": "O0019",
+      "product": "Prod_B",
+      "quantity": 187,
+      "priority": 1,
+      "deadline": "2026-10-31T15:17:01.887006"
+    },
+    {
+      "id": "O0020",
+      "product": "Prod_C",
+      "quantity": 498,
+      "priority": 3,
+      "deadline": "2026-11-02T15:17:01.887011"
+    },
+    {
+      "id": "O0021",
+      "product": "Prod_A",
+      "quantity": 385,
+      "priority": 2,
+      "deadline": "2026-11-03T15:17:01.887015"
+    },
+    {
+      "id": "O0022",
+      "product": "Prod_C",
+      "quantity": 284,
+      "priority": 1,
+      "deadline": "2026-11-01T15:17:01.887020"
+    },
+    {
+      "id": "O0023",
+      "product": "Prod_A",
+      "quantity": 176,
+      "priority": 3,
+      "deadline": "2026-11-05T15:17:01.887024"
+    },
+    {
+      "id": "O0024",
+      "product": "Prod_C",
+      "quantity": 184,
+      "priority": 3,
+      "deadline": "2026-11-06T15:17:01.887029"
+    },
+    {
+      "id": "O0025",
+      "product": "Prod_B",
+      "quantity": 348,
+      "priority": 2,
+      "deadline": "2026-11-02T15:17:01.887033"
+    },
+    {
+      "id": "O0026",
+      "product": "Prod_A",
+      "quantity": 120,
+      "priority": 3,
+      "deadline": "2026-11-04T15:17:01.887038"
+    },
+    {
+      "id": "O0027",
+      "product": "Prod_A",
+      "quantity": 436,
+      "priority": 1,
+      "deadline": "2026-10-29T15:17:01.887043"
+    },
+    {
+      "id": "O0028",
+      "product": "Prod_A",
+      "quantity": 371,
+      "priority": 1,
+      "deadline": "2026-11-03T15:17:01.887048"
+    },
+    {
+      "id": "O0029",
+      "product": "Prod_C",
+      "quantity": 82,
+      "priority": 2,
+      "deadline": "2026-11-03T15:17:01.887052"
+    },
+    {
+      "id": "O0030",
+      "product": "Prod_C",
+      "quantity": 289,
+      "priority": 3,
+      "deadline": "2026-11-01T15:17:01.887057"
+    },
+    {
+      "id": "O0031",
+      "product": "Prod_C",
+      "quantity": 490,
+      "priority": 1,
+      "deadline": "2026-10-29T15:17:01.887061"
+    },
+    {
+      "id": "O0032",
+      "product": "Prod_C",
+      "quantity": 324,
+      "priority": 2,
+      "deadline": "2026-11-02T15:17:01.887066"
+    },
+    {
+      "id": "O0033",
+      "product": "Prod_A",
+      "quantity": 200,
+      "priority": 2,
+      "deadline": "2026-10-30T15:17:01.887071"
+    },
+    {
+      "id": "O0034",
+      "product": "Prod_B",
+      "quantity": 51,
+      "priority": 3,
+      "deadline": "2026-11-01T15:17:01.887075"
+    },
+    {
+      "id": "O0035",
+      "product": "Prod_C",
+      "quantity": 440,
+      "priority": 1,
+      "deadline": "2026-11-05T15:17:01.887080"
+    },
+    {
+      "id": "O0036",
+      "product": "Prod_A",
+      "quantity": 495,
+      "priority": 3,
+      "deadline": "2026-11-01T15:17:01.887085"
+    },
+    {
+      "id": "O0037",
+      "product": "Prod_C",
+      "quantity": 309,
+      "priority": 3,
+      "deadline": "2026-10-31T15:17:01.887089"
+    },
+    {
+      "id": "O0038",
+      "product": "Prod_A",
+      "quantity": 241,
+      "priority": 1,
+      "deadline": "2026-11-05T15:17:01.887093"
+    },
+    {
+      "id": "O0039",
+      "product": "Prod_C",
+      "quantity": 50,
+      "priority": 3,
+      "deadline": "2026-11-02T15:17:01.887098"
+    },
+    {
+      "id": "O0040",
+      "product": "Prod_B",
+      "quantity": 59,
+      "priority": 1,
+      "deadline": "2026-11-02T15:17:01.887102"
+    },
+    {
+      "id": "O0041",
+      "product": "Prod_B",
+      "quantity": 172,
+      "priority": 1,
+      "deadline": "2026-10-31T15:17:01.887107"
+    },
+    {
+      "id": "O0042",
+      "product": "Prod_C",
+      "quantity": 90,
+      "priority": 1,
+      "deadline": "2026-11-04T15:17:01.887112"
+    },
+    {
+      "id": "O0043",
+      "product": "Prod_A",
+      "quantity": 439,
+      "priority": 3,
+      "deadline": "2026-10-30T15:17:01.887116"
+    },
+    {
+      "id": "O0044",
+      "product": "Prod_A",
+      "quantity": 387,
+      "priority": 2,
+      "deadline": "2026-11-05T15:17:01.887121"
+    },
+    {
+      "id": "O0045",
+      "product": "Prod_A",
+      "quantity": 185,
+      "priority": 3,
+      "deadline": "2026-11-06T15:17:01.887127"
+    },
+    {
+      "id": "O0046",
+      "product": "Prod_B",
+      "quantity": 158,
+      "priority": 3,
+      "deadline": "2026-10-31T15:17:01.887132"
+    },
+    {
+      "id": "O0047",
+      "product": "Prod_C",
+      "quantity": 209,
+      "priority": 2,
+      "deadline": "2026-11-02T15:17:01.887137"
+    },
+    {
+      "id": "O0048",
+      "product": "Prod_B",
+      "quantity": 314,
+      "priority": 2,
+      "deadline": "2026-10-29T15:17:01.887141"
+    },
+    {
+      "id": "O0049",
+      "product": "Prod_A",
+      "quantity": 165,
+      "priority": 1,
+      "deadline": "2026-11-02T15:17:01.887149"
+    },
+    {
+      "id": "O0050",
+      "product": "Prod_A",
+      "quantity": 351,
+      "priority": 3,
+      "deadline": "2026-10-31T15:17:01.887153"
+    }
+  ]
+}

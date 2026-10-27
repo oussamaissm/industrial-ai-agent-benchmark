@@ -1,0 +1,7 @@
+small_model:
+  path: "models/llama-3-8b-instruct-q4_k_m.gguf"
+  n_ctx: 4096
+  n_gpu_layers: -1
+large_model:
+  api_endpoint: "https://api.openai.com/v1"
+  model_name: "gpt-4o-mini"
